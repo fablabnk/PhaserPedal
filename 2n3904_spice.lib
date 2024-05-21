@@ -1,0 +1,39 @@
+* SPICE model NPN bipolar transistor ***2N3904***
+* Use the symbol file ***2n3904.asy***
+*
+* (c) Diotec Semiconductor AG
+* www.diotec.com
+* 2017-12-13
+*
+*********************************************************
+* This model is for simulation purposes only. It does   *
+* not replace reviewing of the data sheet nor real life *
+* testing of the part inside the application.           *
+*********************************************************
+*
+.subckt 2N3904 C  B  E  params: Vceo=40 Vcbo=60 Vebo=6 Ic=200m hfe=300 Ices=50n Vbe=1000m ft=300Meg Ccbo=4p Cebo=8p Rc=1 Rb=.1 Re=.1 Eg=1.11 Xti=3
+
+* Above values are an example for the ***2N3904***. Using the
+* above symbol file allows for direct insertion of other values
+* according to these data sheet parameters:
+*
+* Vceo    	Collector Emitter voltage, Base open
+* Vcbo		Collector Base voltage, Emitter open
+* Vebo    	Emitter Base voltage, Collector open
+* Ic		DC Collector current
+* hfe		Max DC current gain
+* Ices		Collector Emitter cut-off current
+* Vbe		Min Base Emitter voltage
+* ft		Gain bandwidth product
+* Ccbo		Typ. Collector Base capacitance
+* Cebo		Typ. Emitter Base capacitance
+* Rc/Rb/Re	Fixed values
+*
+* Activation energy: Eg=1.11 for Si (npn) transistor
+* Sat.-current temp. exp: Xti=3 for Si (npn) transistor
+
+Q  C B E  Transistor
+
+.model Transistor NPN(Is={Ices/2} Bf={hfe} Bvcbo={Vcbo} Bvbe={-Vebo} Vceo={Vceo} Vje={Vbe} Tf={1/(2*pi*ft)} Eg={Eg} Xti={Xti} Icrating={Ic} Cjc={Ccbo*2} Cje={Cebo*2} Rc={Rc} Rb={Rb} Re={Re} mfg=Diotec type=npn)
+
+.ends
