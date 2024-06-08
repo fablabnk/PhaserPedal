@@ -15,6 +15,17 @@ Tasks:
 - does jack wiring make sense? tip to ground etc?
 - route it using ground plane - does power plane make sense?
 
+# Lasercut Layout Test Notes
+
+inline transistor footprints would have been fine!
+we have no:     
+    - 43K resistor:  33K + 10K
+    - 3.9K resistor: 3.3K + 68
+    - 39K resistor: 33K + 5.1K
+    - 510K resistor: 470K + 47K (or use chunky brown one)
+    - we have 510, 390, and 130's in brown chunky type
+154s are too small, need to use a longer footprint 0.9mm between
+
 # Workflow
 
 - rework the schematic - modular with labels - more clarity
