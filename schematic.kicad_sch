@@ -612,197 +612,15 @@
 				)
 			)
 		)
-		(symbol "AudioJack3_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J4"
-				(at -1.905 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Audio In"
-				(at -1.905 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AudioJack3_1_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end -6.35 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0.635 -3.175) (xy 1.27 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -2.54) (xy -1.27 -3.175) (xy -0.635 -2.54) (xy -0.635 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -3.175 -3.175) (xy -3.81 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 3.81)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AudioJack3_1_1_1"
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:Battery_Cell"
+		(symbol "Battery_Cell_1"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "BT1"
-				(at 3.81 3.1115 0)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -810,8 +628,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "9V"
-				(at 3.81 0.5715 0)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -819,7 +637,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "LED_THT:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop"
+			(property "Footprint" ""
 				(at 0 1.524 90)
 				(effects
 					(font
@@ -837,7 +655,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Single-cell battery"
 				(at 0 0 0)
 				(effects
 					(font
@@ -855,7 +673,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Battery_Cell_0_1"
+			(symbol "Battery_Cell_1_0_1"
 				(rectangle
 					(start -2.286 1.778)
 					(end 2.286 1.524)
@@ -927,8 +745,8 @@
 					)
 				)
 			)
-			(symbol "Battery_Cell_1_1"
-				(pin power_out line
+			(symbol "Battery_Cell_1_1_1"
+				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
 					(name "+"
@@ -957,6 +775,188 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Audio:AudioJack3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack3"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack3_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end -6.35 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0.635 -3.175) (xy 1.27 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -2.54) (xy -1.27 -3.175) (xy -0.635 -2.54) (xy -0.635 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -3.175 -3.175) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AudioJack3_1_1"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2534,22 +2534,22 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_SPST"
+		(symbol "Switch:SW_DPDT_x2"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 3.175 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
+			(property "Value" "SW_DPDT_x2"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2574,7 +2574,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
+			(property "Description" "Switch, dual pole double throw, separate symbols"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2583,7 +2583,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch lever"
+			(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2592,7 +2592,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_SPST_0_0"
+			(property "ki_fp_filters" "SW*DPDT*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DPDT_x2_0_0"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -2604,20 +2613,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
-					(center 2.032 0)
+					(center 2.032 -2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -2628,9 +2625,45 @@
 					)
 				)
 			)
-			(symbol "SW_SPST_1_1"
+			(symbol "SW_DPDT_x2_0_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.5748 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_1_1"
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -2648,7 +2681,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "B"
 						(effects
@@ -2658,6 +2691,80 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_2_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3417,6 +3524,12 @@
 		(uuid "52788e99-e1e8-455d-b838-fe1110f817c2")
 	)
 	(junction
+		(at 22.86 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "550e10ac-7627-4dcb-926c-6021e05b960b")
+	)
+	(junction
 		(at 38.1 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3633,8 +3746,16 @@
 		(uuid "37f2c3cf-ac30-4cc0-9007-d80465e8d73b")
 	)
 	(no_connect
+		(at 140.97 171.45)
+		(uuid "3dad3925-f0af-42c0-adcf-32680d494627")
+	)
+	(no_connect
 		(at 246.38 134.62)
 		(uuid "5858eb04-fc72-44d0-85b0-f94fadbff492")
+	)
+	(no_connect
+		(at 140.97 139.7)
+		(uuid "59142725-97a3-4784-aea1-3b7677ecabff")
 	)
 	(no_connect
 		(at 191.77 73.66)
@@ -3657,7 +3778,11 @@
 		(uuid "8f48b34b-6f9a-4b7f-b83b-6c5f30fe0a61")
 	)
 	(no_connect
-		(at 156.21 124.46)
+		(at 130.81 168.91)
+		(uuid "b3e2d97d-e1a8-437a-a2fd-997cda980e68")
+	)
+	(no_connect
+		(at 158.75 124.46)
 		(uuid "e40b2aae-c14a-4b05-9482-3a447ae65d45")
 	)
 	(no_connect
@@ -3667,6 +3792,10 @@
 	(no_connect
 		(at 149.86 144.78)
 		(uuid "f614ee4f-7b86-43d3-8c7b-91b5254acdbe")
+	)
+	(no_connect
+		(at 140.97 166.37)
+		(uuid "fae0003c-5c3d-46f9-afa6-9e174aed7498")
 	)
 	(no_connect
 		(at 189.23 73.66)
@@ -3754,6 +3883,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 142.24) (xy 128.27 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bcf7312-d636-4ef1-a3a3-89e16e79b335")
+	)
+	(wire
+		(pts
 			(xy 196.85 140.97) (xy 198.12 140.97)
 		)
 		(stroke
@@ -3814,7 +3953,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 121.92) (xy 154.94 154.94)
+			(xy 156.21 121.92) (xy 156.21 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3944,7 +4083,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 121.92) (xy 154.94 121.92)
+			(xy 158.75 121.92) (xy 156.21 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4264,7 +4403,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 119.38) (xy 156.21 119.38)
+			(xy 153.67 119.38) (xy 158.75 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5294,7 +5433,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 154.94) (xy 153.67 154.94)
+			(xy 156.21 154.94) (xy 153.67 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5564,7 +5703,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 144.78) (xy 130.81 144.78)
+			(xy 128.27 142.24) (xy 130.81 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5732,6 +5871,17 @@
 		)
 		(uuid "fee6e689-7881-45fc-9b4e-82faabce3319")
 	)
+	(text "Using DPDT like SPDT! Second pole remains unused"
+		(exclude_from_sim no)
+		(at 110.236 176.276 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "018590a6-d42a-45a1-9ac6-24625044da68")
+	)
 	(text "Footswitch Dry/Wet Mix"
 		(exclude_from_sim no)
 		(at 104.394 102.362 0)
@@ -5789,7 +5939,7 @@
 	)
 	(text "Changes to the original schematic:\n- I chose to wire the audio out ring to GND, but if it isn't needed we just omit the cable at the pinout\n- 390K resistor and 510K resistor are odd values, I switched them out for\n-- 390K: 330K + 56K + 3.9K\n-- 510K: 470K + 39K + 1K"
 		(exclude_from_sim no)
-		(at 16.51 169.418 0)
+		(at 19.304 163.322 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7113,77 +7263,6 @@
 		)
 	)
 	(symbol
-		(lib_name "AudioJack3_1")
-		(lib_id "Connector_Audio:AudioJack3")
-		(at 161.29 121.92 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "36be30d0-5830-4f29-a0d5-6aa13043a0de")
-		(property "Reference" "J1"
-			(at 163.195 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Audio  Out"
-			(at 163.195 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 161.29 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 161.29 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f11fdda-a40c-4642-a117-5c19219cbd52")
-		)
-		(pin "3"
-			(uuid "66efd163-4886-4d87-b776-fb33caccc02b")
-		)
-		(pin "2"
-			(uuid "f477eeb3-fe71-4433-b29c-4ac6368bccdd")
-		)
-		(instances
-			(project "schematic"
-				(path "/ee48b9d3-165e-480e-a713-87c5100d2a31"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 208.28 74.93 0)
 		(unit 1)
@@ -7715,7 +7794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 110.49 39.37 0)
 			(effects
 				(font
@@ -8077,75 +8156,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 135.89 144.78 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4caf090f-8076-486f-9630-2e13df1566d7")
-		(property "Reference" "SW1"
-			(at 135.89 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 135.89 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 135.89 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "72a34bbe-6e57-4fcd-a585-d9f3cc074aea")
-		)
-		(pin "2"
-			(uuid "e38518a8-6cd6-465f-a38a-ba03a6f51ad6")
-		)
-		(instances
-			(project "schematic"
-				(path "/ee48b9d3-165e-480e-a713-87c5100d2a31"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 120.65 119.38 270)
 		(unit 1)
@@ -8311,7 +8321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 220.98 39.37 0)
 			(effects
 				(font
@@ -8807,6 +8817,74 @@
 		)
 	)
 	(symbol
+		(lib_name "Battery_Cell_1")
+		(lib_id "Device:Battery_Cell")
+		(at 31.75 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6006835e-2ed3-4c2f-b2b3-2008bfc92597")
+		(property "Reference" "BT1"
+			(at 33.528 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9V Battery"
+			(at 33.528 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 33.274 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.274 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 31.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1e6deca0-a904-4bb9-9ff7-949f73dd4962")
+		)
+		(pin "1"
+			(uuid "a553e58d-997c-4fba-bd01-11273e936a2d")
+		)
+		(instances
+			(project "schematic"
+				(path "/ee48b9d3-165e-480e-a713-87c5100d2a31"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 218.44 48.26 0)
 		(unit 1)
@@ -9016,6 +9094,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 21.59 69.85 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65fc312a-1a12-468f-bf5e-64612eb66949")
+		(property "Reference" "J2"
+			(at 19.685 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3"
+			(at 19.685 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:PinHeader_1x03_P2.54mm_Vertical_TRS"
+			(at 21.59 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 21.59 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "R"
+			(uuid "274c270b-5005-471c-bb0d-8e584691c9d8")
+		)
+		(pin "T"
+			(uuid "b047dfc4-13e4-40c6-bd1d-29103bcc1990")
+		)
+		(pin "S"
+			(uuid "0ea94f24-486e-406c-a1a2-c356afea953b")
+		)
+		(instances
+			(project "schematic"
+				(path "/ee48b9d3-165e-480e-a713-87c5100d2a31"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 204.47 151.13 270)
 		(unit 1)
@@ -9079,6 +9228,86 @@
 				(path "/ee48b9d3-165e-480e-a713-87c5100d2a31"
 					(reference "R30")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 135.89 168.91 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c029df9-93f7-403a-ae7d-fdcf4ea7233f")
+		(property "Reference" "SW2"
+			(at 135.89 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT_x2"
+			(at 135.89 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:PinHeader_1x02_P2.54mm_Vertical_2_3"
+			(at 135.89 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 135.89 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "52f26b5e-fd5a-406a-83c5-09c7aeb801ac")
+		)
+		(pin "1"
+			(uuid "8d83c7fe-0553-40fd-8d27-1dda415aac2c")
+		)
+		(pin "3"
+			(uuid "4e75ddb5-f8da-4239-a02c-021a877d0757")
+		)
+		(pin "4"
+			(uuid "e4ef81e0-966d-4888-97cf-06c407b6e3ab")
+		)
+		(pin "2"
+			(uuid "7993cf5c-8099-432b-bbc7-6c845befef64")
+		)
+		(pin "6"
+			(uuid "6520ecd7-b8c3-4373-a684-38d9d084f59e")
+		)
+		(instances
+			(project "schematic"
+				(path "/ee48b9d3-165e-480e-a713-87c5100d2a31"
+					(reference "SW2")
+					(unit 2)
 				)
 			)
 		)
@@ -9179,7 +9408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 75.565 116.84 0)
 			(effects
 				(font
@@ -9535,78 +9764,6 @@
 		)
 	)
 	(symbol
-		(lib_name "AudioJack3_1")
-		(lib_id "Connector_Audio:AudioJack3")
-		(at 21.59 69.85 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "83a5a197-a88d-497d-8937-37dc6172c8cb")
-		(property "Reference" "J4"
-			(at 19.685 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Audio In"
-			(at 19.685 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 21.59 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 21.59 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 21.59 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22c3adac-ebbc-44f5-8c46-28730afb82b0")
-		)
-		(pin "3"
-			(uuid "19df8b45-d276-4101-9cb8-f683b3f82168")
-		)
-		(pin "2"
-			(uuid "dbff00ff-b0e1-42d8-97af-d4ebe1801abc")
-		)
-		(instances
-			(project "schematic"
-				(path "/ee48b9d3-165e-480e-a713-87c5100d2a31"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_5")
 		(lib_id "power:GND")
 		(at 30.48 71.12 0)
@@ -9743,6 +9900,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 135.89 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "889d24da-2180-4053-9520-61b36da6e36b")
+		(property "Reference" "SW2"
+			(at 135.89 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT_x2"
+			(at 135.89 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:PinHeader_1x02_P2.54mm_Vertical_2_3"
+			(at 135.89 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 135.89 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "52f26b5e-fd5a-406a-83c5-09c7aeb801ac")
+		)
+		(pin "1"
+			(uuid "8d83c7fe-0553-40fd-8d27-1dda415aac2c")
+		)
+		(pin "3"
+			(uuid "4e75ddb5-f8da-4239-a02c-021a877d0757")
+		)
+		(pin "4"
+			(uuid "e4ef81e0-966d-4888-97cf-06c407b6e3ab")
+		)
+		(pin "2"
+			(uuid "7993cf5c-8099-432b-bbc7-6c845befef64")
+		)
+		(pin "6"
+			(uuid "6520ecd7-b8c3-4373-a684-38d9d084f59e")
+		)
+		(instances
+			(project "schematic"
+				(path "/ee48b9d3-165e-480e-a713-87c5100d2a31"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 144.78 48.26 0)
 		(unit 1)
@@ -9807,6 +10044,72 @@
 			(project "schematic"
 				(path "/ee48b9d3-165e-480e-a713-87c5100d2a31"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 22.86 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9172d3a0-4f04-4f73-b479-d8e1406cb9dd")
+		(property "Reference" "#FLG02"
+			(at 22.86 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 22.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 22.86 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c257330a-cf9a-4880-8a36-74e64767081d")
+		)
+		(instances
+			(project "schematic"
+				(path "/ee48b9d3-165e-480e-a713-87c5100d2a31"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -10097,7 +10400,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-063_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296Y_Vertical"
 			(at 187.96 128.27 0)
 			(effects
 				(font
@@ -10235,7 +10538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 37.465 116.84 0)
 			(effects
 				(font
@@ -10344,7 +10647,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 48.26 69.215 0)
 			(effects
 				(font
@@ -10700,6 +11003,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 163.83 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd8499c2-62cb-479f-a852-929b2642aaec")
+		(property "Reference" "J1"
+			(at 165.735 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3"
+			(at 165.735 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:PinHeader_1x02_P2.54mm_Vertical_TR"
+			(at 163.83 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 163.83 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "R"
+			(uuid "a12d969c-8cff-440b-809c-1411331b0bbe")
+		)
+		(pin "T"
+			(uuid "f47ebf5a-812a-4a1d-9f71-1529ce9d0b0a")
+		)
+		(pin "S"
+			(uuid "c74f76d0-7420-4506-97ee-8a33bf4413b1")
+		)
+		(instances
+			(project "schematic"
+				(path "/ee48b9d3-165e-480e-a713-87c5100d2a31"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 146.05 144.78 90)
 		(mirror x)
@@ -10801,7 +11174,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 184.15 39.37 0)
 			(effects
 				(font
@@ -12127,7 +12500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 147.32 39.37 0)
 			(effects
 				(font
@@ -12813,76 +13186,6 @@
 			(project "schematic"
 				(path "/ee48b9d3-165e-480e-a713-87c5100d2a31"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 31.75 78.74 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc8dac16-edf8-4f12-8e36-b535b59ae4b9")
-		(property "Reference" "BT1"
-			(at 34.8615 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "9V"
-			(at 32.3215 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 33.274 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.274 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 31.75 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b66206a2-92e6-4b30-8ee5-6af50712ddf8")
-		)
-		(pin "1"
-			(uuid "1ca1a11d-efeb-4111-80d2-0ca5f12251f8")
-		)
-		(instances
-			(project "schematic"
-				(path "/ee48b9d3-165e-480e-a713-87c5100d2a31"
-					(reference "BT1")
 					(unit 1)
 				)
 			)

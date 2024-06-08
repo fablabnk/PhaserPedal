@@ -1,3 +1,20 @@
+# V1.1
+
+Aims:
+- get it working with original BOM
+
+Tasks:
+- DONE: get schematic to pass ERC check
+- mount to the case using tape etc. Case spec: HA29830PSLA: 120x95x34mm
+- Audio In, Audio Out, 2 x pots, Footswitch and 9V battery will all be point-to-point wired
+- DONE: use DPDT footswitch instead of SPST: it's the only footswitch we have
+    - when closed, clean signal only makes it to output. when open, phased signal allowed through to be mixed with clean signal
+    - we will wire only one pole and one throw of the DPDT, the other will remain disconnected
+    - we presume pin 2 is connected to pin 1 when switch is in up position (clean) so will wire our phaser to pin 3 (wet)
+- optimise component placement
+- does jack wiring make sense? tip to ground etc?
+- route it using ground plane - does power plane make sense?
+
 # Workflow
 
 - rework the schematic - modular with labels - more clarity
