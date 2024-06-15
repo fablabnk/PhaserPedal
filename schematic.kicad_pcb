@@ -6232,12 +6232,12 @@
 			)
 		)
 		(property "Value" "100K"
-			(at -2.55 1.275 90)
+			(at -5.588 3.048 90)
 			(layer "F.SilkS")
 			(uuid "8ceb3060-cbfb-4270-806b-d445f06bc0ee")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -22315,7 +22315,7 @@
 		)
 	)
 	(gr_text "T"
-		(at 67.7164 115.4684 0)
+		(at 68.072 115.4684 0)
 		(layer "F.SilkS")
 		(uuid "b1b000fa-cc10-49e0-9b87-f3a503a0e71f")
 		(effects

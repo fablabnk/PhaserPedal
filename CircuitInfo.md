@@ -25,6 +25,7 @@ we have no:
     - 510K resistor: 470K + 47K (or use chunky brown one)
     - we have 510, 390, and 130's in brown chunky type
 154s are too small, need to use a longer footprint 0.9mm between
+*OR* ignore magical capacitors as they are not used in instructables!
 
 # Workflow
 
